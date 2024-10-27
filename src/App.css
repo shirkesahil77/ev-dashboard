@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+  font-family: 'Inter', sans-serif; /* Replace 'Inter' with your preferred font */
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb; /* Optional: Set a default background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* Use a different font for headings if desired */
+}
+
+p, li, span, button {
+  font-family: 'Inter', sans-serif; /* Ensure consistent font usage across text elements */
+}
+
+.img{
+  mix-blend-mode: "color-burn";
+      filter: brightness(125%);
+      width: 100px;
+      object-fit: contain;
+      aspect-ratio: 3/2;
+}
+
